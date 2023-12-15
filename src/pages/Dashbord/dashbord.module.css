@@ -1,0 +1,64 @@
+.dashbordContainer{
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.dashbordContainer >div{
+    border-radius: 1em;
+}
+
+.first{
+  
+  background-color: #5746EA;
+  padding: 1em;
+  height: 13.5em;
+}
+
+.second{
+   grid-row: span 2;
+   height: 23.5em;
+
+}
+.third{
+   grid-row: span 3;
+   height: 34.2em;
+}
+
+.fourth{
+   
+    grid-column: span 2;
+    height: 10em;
+    background-color: #1E2343;
+    margin-top: -4em;
+    
+}
+
+.fifth{
+    grid-row-start: 2;
+    background-color: #101744;
+        height: 9em;
+        margin-top: -4em;
+       
+}
+
+.browseBtn{
+    margin-top: -3em;
+    display: flex;
+    justify-content: end;
+    width: 95%;
+}
+
+.browseBtn button{
+    color: #fff;
+    background: #148A08;
+    padding: 0.8em 2em;
+    border-radius: 1.5em;
+}

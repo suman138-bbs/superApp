@@ -1,0 +1,98 @@
+form{
+    font-family: DM Sans;
+}
+
+.formHeader
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.signUpContainer{
+    height: 100vh;
+    width: 50vw;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: DM Sans;
+}
+
+input{
+    background-color: #292929;
+    height: 3em;
+    width: 30em;
+    padding: 1em 1.5em;
+    border: none;
+    color: #fff;
+}
+
+.heading{
+    font-family:Single Day ;
+    color: #72DB73;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.inputContainer{
+    display: flex;
+    gap: 0.8em;
+    flex-direction: column;
+}
+
+
+.checkBox{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-top: -1em;
+    
+}
+
+.checkBox input{
+    width: 1em;
+        height: 1em;
+}
+.checkBox p{
+    position: relative;
+     right: 36em;
+     top: 2em
+}
+
+.termsAndCondition{
+    width: 25em;
+}
+
+.termsAndCondition button{
+    background: #72DB73;
+    border: none;
+    text-align: center;
+    padding: 1em 5em;
+    width: 30em;
+    border-radius: 2em;
+    cursor: pointer;
+
+}
+
+.termsAndCondition span{
+        color: #72DB73;
+}
+
+.termsAndCondition{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.error{
+    color: red;
+    font-size: 0.6rem;
+}

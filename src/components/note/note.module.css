@@ -1,0 +1,29 @@
+.noteContainer{
+    background-color: #F1C75B;
+    height: 100%;
+    width: 26em;
+    border-radius: 1em;
+    color: #000;
+    padding: 1em 2em;
+}
+
+.noteContainer h2{
+     font-weight: 900;
+}
+
+.noteContainer textarea{
+    background-color: transparent;
+    color: #000;
+    font-weight: 500;
+    width: 20em;
+    border: none;
+    overflow: hidden;
+    height: 15em;
+    overflow-y: auto;
+    font-size: 1.09rem;
+   font-family: Roboto;
+}
+.inputContainer textarea:focus{
+        color: #000;
+}
+

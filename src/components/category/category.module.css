@@ -1,0 +1,74 @@
+.categoryContainer{
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 1em;
+    
+    
+   
+
+}
+
+.categoryContainer  >div{
+    padding: 0.5em;
+    font-family: DM Sans;
+    border-radius: 0.5em;
+    height: 100%;
+    
+    cursor: pointer;
+}
+
+
+
+.movieName{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+    
+    
+}
+
+.movieName >p {
+    padding-left: 0.3em;
+}
+
+
+.movieName >div>img{
+   width: auto;
+    height: 5em;
+}
+
+.MaincategoryContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nextBtn >button{
+    text-align: center;
+    padding: 0.8em 2.3em;
+    background-color: #148A08;
+    color: #fff;
+    border: none;
+    border-radius: 1.5em;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.categoryAndBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: end;
+
+}
+
+.setBorder {
+    border: 2px solid #11B800;
+}
+
+.removeBorder{
+    border: none;
+}

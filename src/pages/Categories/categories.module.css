@@ -1,0 +1,86 @@
+.categoriesContainer{
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+}
+
+.selectedCate{
+    
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5em;
+    color: #fff;
+   
+}
+
+.selectedCatHeadline{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+.heading {
+    font-family: Single Day;
+    color: #72DB73;
+    font-size: 2.5rem;
+    
+}
+.headline{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.1;
+    width: 80%;
+
+}
+.categoryList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+     
+
+}
+
+.selectedItem{
+    width: 80%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+}
+
+.selectedCate >div{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.selectedItem >div{
+    padding: 0.4em;
+    font-family: Roboto;
+    background-color: #148A08;
+    display: flex;
+    gap: 1.7em;
+    border-radius: 0.9em;
+}
+.selectedItem button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.errorContainer{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    font-family: Roboto;
+    color: #F00;
+}

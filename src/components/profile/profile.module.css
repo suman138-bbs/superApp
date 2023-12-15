@@ -1,0 +1,43 @@
+.profileContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 0.8fr);
+     height: 5em;
+}
+.imageContainer{
+    grid-row: span 2;
+    
+
+}
+
+.imageContainer {
+    width: 5em;
+}
+
+.imageContainer > img{
+    height: 12em;
+    
+}
+
+.userData >p {
+margin-top: 0.4em;
+font-size: 1.1rem;
+}
+.categoryList >p {
+    
+    background-color: #9F94FF;
+    border-radius: 1em;
+    padding: 0.4em;
+    width: 6em;
+    height: 2em;
+
+
+    
+}
+
+.categoryList{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.2em;
+    height: 4.8em;
+   overflow-y: auto;
+}

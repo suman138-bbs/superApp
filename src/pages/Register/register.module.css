@@ -1,0 +1,26 @@
+.registerContainer{
+    display: flex;
+}
+
+.imageContainer{
+    background-image: url('../../assets/Register.png');
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0em 2em;
+    background-size: cover;
+        background-position: center;
+   
+}
+
+.imageContainer p{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: Roboto;
+    line-height: 141.688%;
+    letter-spacing: 1.1px;
+    font-style: normal;
+}

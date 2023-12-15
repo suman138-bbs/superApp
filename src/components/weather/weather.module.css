@@ -1,0 +1,41 @@
+.dataTimeContainer{
+    background-color: #FF4ADE;
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+   justify-content: center;
+   padding: 0.5em 0em;
+   display: flex;
+   gap: 2em;
+
+}
+
+.dataTimeContainer p{
+    font-size: 2rem;
+    font-weight: 900;
+   
+}
+
+.verticalLine{
+    height: 3em;
+    width: 0.1%;
+    background-color: #fff;
+}
+
+.rootWeatherContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 0em 2em;
+    
+    
+}
+.flexyContainer{
+    display: flex;
+    gap: 1em;
+}
+
+.iconContainer{
+    margin-left: 0.5em;
+}

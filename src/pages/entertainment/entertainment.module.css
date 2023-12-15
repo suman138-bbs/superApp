@@ -1,0 +1,54 @@
+.entertainContainer{
+    background:  #000;
+    color: #fff;
+    font-family: Roboto;
+    padding: 2em;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.headerContainer p{
+    color: #72DB73;
+    font-size: 1.8rem;
+    font-family: Single Day;
+}
+
+.heroConatiner p{
+     font-size: 1.5rem;
+     font-weight: 600;
+}
+
+.heroConatiner>div{
+    margin-top: 1em;
+}
+.nameHeader{
+     color: #878787;
+     font-size: 1.2rem;
+}
+.movieItemContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5em;
+    
+
+}
+
+.movieItemContainer img{
+    width: 16em;
+    height: 9em;
+    background-size: cover;
+    object-fit: cover;
+        object-position: 50% 50%;
+}
+.movieItemContainer p{
+    font-size: 0.8rem;
+}
+
+.heroContainer >div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
